@@ -101,7 +101,7 @@ Using the example configuration file <a target="_blank" href="https://github.com
 | CABundle | Path to a CA\_BUNDLE file or directory with certificates of trusted CAs when `VerifyCerts` is true | `"/path/ca_bundle/`" |
 | ClientCert | Client side certificate to use for HTTPS requests to the URL | `"/path/client.cert"` |
 | ClientCertKey | Separate client side certificate key if not included with cert file | `"/path/client.key"` |
-| Metric | The short name and report boolean for (un)desired metrics to emit.  See [Metrics](#metrics). | `"request_latency" false` |
+| Metric | The short name and report boolean for (un)desired metrics to emit.  See [Metrics](#metrics)[](sfx_link:collectd-kong&tab=Info). | `"request_latency" false` |
 | ExtraDimension | The name and value of any custom dimension to be sent with each datapoint | `"my_dimension" "my_dimension_value"` |
 | ReportAPIIDs | The UUID assigned to each API object upon creation | `false` |
 | ReportAPINames | The optional, user-created name assigned to API objects (recommended) | `true` |
