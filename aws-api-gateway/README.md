@@ -46,14 +46,13 @@ For more information about the metrics emitted by Amazon API Gateway, visit the 
 
 The following is a subset of all available statistics; these are recommended for monitoring by Amazon.
 
-Metric	         Average	Count	 Minimum	Maximum	 Sum
-4XXError	          ✔	      ✔				
-5XXError	          ✔ 	    ✔				
-CacheHitCount	      ✔ 	 		                        ✔
-CacheMissCount	    ✔ 	 		                        ✔
-Count 	 	                  ✔				
-IntegrationLatency						
-Latency						
+4XXError: Count, Average
+5XXError: Count, Average
+CacheHitCount: Sum, Average
+CacheMissCount: Sum, Average
+Count: Count
+IntegrationLatency
+Latency
 
 ### LICENSE
 
