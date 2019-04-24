@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -71,6 +72,67 @@ For more information about the filters, see <a target="_blank" href="http://docs
 ### METRICS
 
 For more information about the metrics emitted by Amazon EC2, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/ec2/">https://aws.amazon.com/ec2/</a>.
+
+### RECOMMENDED Metrics
+
+The following are a subset of available metrics; these are recommended by Amazon for collection.
+
+
+_Standard EC2 Metrics_
+
+CPUUtilization
+
+DiskReadOps
+
+DiskWriteOps
+
+DiskReadBytes
+
+DiskWriteBytes
+
+NetworkIn
+
+NetworkOut
+
+NetworkPacketsIn: Minimum, Maximum, Average
+
+NetworkPacketsOut: Minimum, Maximum, Average
+
+
+_Credit metrics for burstable instances_
+
+CPUCreditUsage
+
+CPUCreditBalance
+
+CPUSurplusCreditBalance
+
+CPUSurplusCreditsCharged
+
+
+_Status check metrics_
+
+StatusCheckFailed
+
+StatusCheckFailed_Instance
+
+StatusCheckFailed_System
+
+
+_EBS metrics for Nitro-based instances_
+
+EBSReadOps
+
+EBSWriteOps
+
+EBSReadBytes
+
+EBSWriteBytes
+
+EBSIOBalance%
+
+EBSByteBalance%_
+
 
 ### LICENSE
 

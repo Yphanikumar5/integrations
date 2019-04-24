@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#Recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -54,6 +55,10 @@ For EBS, SignalFx will scan every volume ID from your AWS account and pull out p
 ### METRICS
 
 For more information about the metrics emitted by Amazon Elastic Block Store, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/ebs/">https://aws.amazon.com/ebs/</a>.
+
+### RECOMMENDED Metrics
+
+There are no recommended metrics on AWS Cloudwatch.
 
 ### LICENSE
 
