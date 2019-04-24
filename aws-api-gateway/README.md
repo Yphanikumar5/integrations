@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Statistics](#Recommended-statistics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -40,6 +41,19 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 ### METRICS
 
 For more information about the metrics emitted by Amazon API Gateway, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/api-gateway/">https://aws.amazon.com/api-gateway/</a>.
+
+### RECOMMENDED STATISTICS 
+
+The following is a subset of all available statistics; these are recommended for monitoring by Amazon.
+
+Metric	         Average	Count	 Minimum	Maximum	 Sum
+4XXError	          ✔	      ✔				
+5XXError	          ✔ 	    ✔				
+CacheHitCount	      ✔ 	 		                        ✔
+CacheMissCount	    ✔ 	 		                        ✔
+Count 	 	                  ✔				
+IntegrationLatency						
+Latency						
 
 ### LICENSE
 
