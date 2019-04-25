@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -38,6 +39,23 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 ### METRICS
 
 For more information about the metrics emitted by Amazon CloudFront, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/cloudfront/">https://aws.amazon.com/cloudfront/</a>.
+
+### RECOMMENDED METRICS
+
+The following are a subset of available metrics; these statistics are recommended by Amazon for collection.
+
+Requests: Sum
+
+BytesDownloaded: Sum
+
+BytesUploaded: Sum
+
+TotalErrorRate: Average
+
+4xxErrorRate: Average
+
+5xxErrorRate: Average
+
 
 ### LICENSE
 

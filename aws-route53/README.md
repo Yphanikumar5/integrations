@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -39,6 +40,23 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 ### METRICS
 
 For more information about the metrics emitted by Amazon Route 53, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/route53/">https://aws.amazon.com/route53/</a>.
+
+### RECOMMENDED METRICS 
+
+The following are a subset of the available metrics; these are the statistics recommended by Amazon for collection.
+
+ChildHealthCheckHealthyCount: Average
+
+ConnectionTime: Average
+
+HealthCheckPercentageHealthy: Average, Minimum, Maximum
+
+HealthCheckStatus: Minimum
+
+SSLHandshakeTime: Average
+
+TimeToFirstByte: Average
+
 
 ### LICENSE
 

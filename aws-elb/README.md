@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -45,6 +46,37 @@ For ELB, SignalFx will scan every load balancer name from your AWS account and p
 ### METRICS
 
 For more information about the metrics emitted by Elastic Load Balancing, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/elasticloadbalancing/">https://aws.amazon.com/elasticloadbalancing/</a>.
+
+### RECOMMENDED METRICS 
+
+The following are a subset of all available metrics; these are the ones Amazon recommends for collection.
+
+BackendConnectionErrors : Sum
+
+HealthyHostCount : Average, Maximum
+
+HTTPCode\_Backend\_2XX : Sum
+
+HTTPCode\_Backend\_3XX : Sum
+
+HTTPCode\_Backend\_4XX : Sum
+
+HTTPCode\_Backend\_5XX : Sum
+
+HTTPCode\_ELB\_4XX : Sum
+
+HTTPCode\_ELB_5XX : Sum
+
+Latency : Average, Maximum
+
+RequestCount : Sum
+
+SpilloverCount : Sum
+
+SurgeQueueLength : Average, Minimum, Maximum
+
+UnHealthyHostCount : Average, Minimum
+
 
 ### LICENSE
 

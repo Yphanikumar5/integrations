@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -160,6 +161,10 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 ### METRICS
 
 For more information about the metrics emitted by Amazon Relational Database Service, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/rds/">https://aws.amazon.com/rds/<a>.
+
+### RECOMMENDED METRICS 
+
+There are no recommended metrics from CloudWatch.
 
 ### LICENSE
 

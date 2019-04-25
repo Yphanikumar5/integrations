@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -37,6 +38,91 @@ SignalFx synthesizes a unique ID for each ALB in the dimension `AWSUniqueId`.
 ### METRICS
 
 For more information about the metrics emitted by Application Load Balancing, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/elasticloadbalancing/">https://aws.amazon.com/elasticloadbalancing/</a>.
+
+### RECOMMENDED METRICS
+
+The following are a subset of available metrics; these statistics are recommended by Amazon for collection.
+
+_Load balancer metrics_
+
+ClientTLSNegotiationErrorCount: Sum
+
+ConsumedLCUs: Average, Sum, Minimum, Maximum, Count
+
+HTTP\_Fixed\_Response_Count: Sum
+
+HTTP\_Redirect\_Count: Sum
+
+HTTP\_Redirect\_Url\_Limit\_Exceeded_Count: Sum
+
+HTTPCode\_ELB\_3XX_Count: Sum
+
+HTTPCode\_ELB\_4XX_Count: Sum
+
+HTTPCode\_ELB\_5XX_Count: Sum
+
+IPv6ProcessedBytes: Sum
+
+IPv6RequestCount: Sum
+
+NewConnectionCount: Sum
+
+ProcessedBytes: Sum
+
+RejectedConnectionCount: Sum
+
+RequestCount: Sum
+
+RuleEvaluations: Sum
+
+StandardProcessedBytes: Sum
+
+_ALB metrics for targets_
+
+HealthyHostCount: Average, Minimum, Maximum
+
+HTTPCode\_Target\_2XX_Count: Sum
+
+HTTPCode\_Target\_3XX_Count: Sum
+
+HTTPCode\_Target\_4XX_Count: Sum
+
+HTTPCode\_Target\_5XX_Count: Sum
+
+NonStickyRequestCount: Sum
+
+RequestCountPerTarget: Sum
+
+TargetConnectionErrorCount: Sum
+
+TargetResponseTime: Average, Percentile
+
+TargetTLSNegotiationErrorCount: Sum
+
+UnHealthyHostCount: Average, Minimum, Maximum
+
+_ALB metrics for Lambda targets_
+
+LambdaInternalError: Sum
+
+LambdaTargetProcessedBytes: Sum
+
+LambdaUserError: Sum
+
+_ELB user authentication metrics_
+
+ELBAuthError: Sum
+
+ELBAuthFailure: Sum
+
+ELBAuthLatency: Sum
+
+ELBAuthRefreshTokenSuccess: Sum
+
+ELBAuthSuccess: Sum
+
+ELBAuthUserClaimsSizeExceeded: Sum
+
 
 ### LICENSE
 

@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -33,6 +34,29 @@ SignalFx provides a built-in dashboard for this service, as shown below.
 ### METRICS
 
 For more information about the metrics emitted by Amazon Simple Notification Service, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/sns/">https://aws.amazon.com/sns/</a>.
+
+### RECOMMENDED METRICS 
+
+The following are a subset of available metrics; these statistics are recommended by Amazon for collection.
+
+NumberOfMessagesPublished: Sum
+
+NumberOfNotificationsDelivered: Sum
+
+NumberOfNotificationsFailed: Sum, Average
+
+NumberOfNotificationsFilteredOut: Sum, Average
+
+NumberOfNotificationsFilteredOut-NoMessageAttributes: Sum, Average
+
+NumberOfNotificationsFilteredOut-InvalidAttributes: Sum, Average
+
+PublishSize: Minimum, Maximum, Average, Count
+
+SMSMonthToDateSpentUSD: Maximum
+
+SMSSuccessRate: Sum, Average, Count
+
 
 ### LICENSE
 

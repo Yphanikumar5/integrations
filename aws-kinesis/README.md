@@ -4,6 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
+- [Recommended Metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -39,6 +40,71 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 ### METRICS
 
 For more information about the metrics emitted by AWS Kinesis, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/kinesis/">https://aws.amazon.com/kinesis/</a>.
+
+### RECOMMENDED METRICS
+
+The following are a subset of available metrics; these statistics are recommended by Amazon for collection.
+
+_Stream level metrics_
+
+GetRecords.Bytes: Minimum, Maximum, Average, Sum, Count
+
+GetRecords.IteratorAgeMilliseconds: Maximum
+
+GetRecords.Latency: Minimum, Maximum, Average
+
+GetRecords.Records: Minimum, Maximum, Average, Sum, Count
+
+GetRecords.Success: Average, Sum, Count
+
+IncomingBytes: Minimum, Maximum, Average, Sum, Count
+
+IncomingRecords: Minimum, Maximum, Average, Sum, Count
+
+PutRecord.Bytes: Minimum, Maximum, Average, Sum, Count
+
+PutRecord.Latency: Minimum, Maximum, Average
+
+PutRecord.Success: Average, Sum, Count
+
+PutRecords.Bytes: Minimum, Maximum, Average, Sum, Count
+
+PutRecords.Latency: Minimum, Maximum, Average
+
+PutRecords.Records: Minimum, Maximum, Average, Sum, Count
+
+PutRecords.Success: Average, Sum, Count
+
+ReadProvisionedThroughputExceeded: Average
+
+SubscribeToShard.RateExceeded
+
+SubscribeToShard.Success
+
+SubscribeToShardEvent.Bytes: Minimum, Maximum, Average, Sum, Count
+
+SubscribeToShardEvent.MillisBehindLatest: Minimum, Maximum, Average, Count
+
+SubscribeToShardEvent.Records: Minimum, Maximum, Average, Sum, Count
+
+SubscribeToShardEvent.Success: Minimum, Maximum, Average, Sum, Count
+
+WriteProvisionedThroughputExceeded: Average
+
+_Enhanced shard level metrics_
+
+IncomingBytes: Minimum, Maximum, Average, Sum, Count
+
+IncomingRecords: Minimum, Maximum, Average, Sum, Count
+
+IteratorAgeMilliseconds: Minimum, Maximum, Average, Count
+
+OutgoingBytes: Minimum, Maximum, Average, Sum, Count
+
+ReadProvisionedThroughputExceeded: Minimum, Maximum, Average, Sum, Count
+
+WriteProvisionedThroughputExceeded: Minimum, Maximum, Average, Sum, Count
+
 
 ### LICENSE
 
