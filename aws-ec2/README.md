@@ -110,7 +110,7 @@ EBSWriteOps
 EBSReadBytes
 EBSWriteBytes
 EBSIOBalance%
-EBSByteBalance%_
+EBSByteBalance%
 
 
 ### LICENSE
