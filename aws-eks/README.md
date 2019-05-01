@@ -1,6 +1,7 @@
 # ![](./img/integration_amazoneks.png) Amazon Elastic Container Service for Kubernetes (EKS)
 
 - [Description](#description)
+_ [Recommended Metrics](#recom,mended-metrics) _
 - [License](#license)
 
 ### DESCRIPTION
@@ -16,6 +17,10 @@ For more information, see our documentation on installing the Smart Agent in you
 
   [<img src='./img/kubernetes.png' width=200px>](./img/kubernetes.png)
 
+
+### RECOMMENDED METRICS
+
+There are no recommended metrics on Cloudwatch.
 
 ### LICENSE
 
