@@ -46,6 +46,7 @@ Besides the common default metrics that are described [here](https://docs.signal
 | `name2` | gauge | ✔ | Total number of consumers subscribed to destinations on the broker |
 | `name3` | gauge |  | Total number of messages that have been acknowledged from the broker. |
 
+
 ### Optional metric configuration
 
 To collect optional metrics, you must configure your monitor to listen for those metrics and then send those metrics to the agent.
@@ -78,6 +79,7 @@ The following dimensions may occur on metrics emitted by this monitor. Some dime
 
 INSTALLATION TAB
 
+# Installing the monitor
 
 - [Requirements and Dependencies](#requirements-and-Dependencies)
 - [Installation](#installation)
@@ -103,8 +105,8 @@ The **nested** `kubeletAPI` config object has the following fields:
 | Config option | Required | Type | Description |
 | --- | --- | --- | --- |
 | `url` | no | `string` | URL of the Kubelet instance.  This will default to `https://<current node hostname>:10250` if not provided. |
-| `authType` | no | `string` | Can be `none` for no auth, `tls` for TLS client cert auth, or `serviceAccount` to use the pod's default service account token to authenticate. (**default:** `none`) |
-| `skipVerify` | no | `bool` | Whether to skip verification of the Kubelet's TLS cert (**default:** `true`) |
+| `authType` | no | `string` | Can be `none` for no auth, `tls` for TLS client cert auth, or `serviceAccount` to use the pod default service account token to authenticate. (**default:** `none`) |
+| `skipVerify` | no | `bool` | Whether to skip verification of the Kubelet TLS cert (**default:** `true`) |
 
 
 ### YAML config
@@ -141,7 +143,9 @@ To confirm your installation is functioning properly...
 /<This is troubleshooting the monitor installation.>
 
 
+
 USAGE TAB
+
 
 # Monitoring metrics 
 
@@ -153,11 +157,12 @@ USAGE TAB
 ## Dashboards
 
 Dashboards in which the default metrics from this monitor display are shown below.
+
 /<dashboard screen shots>
 
 ## How To
 
-/<Examples of how to use the monitor metrics for something useful.>
+/<Examples of how to use the monitor, dashboards, and metrics for a meaningful task.>
 
 
 ## Sample code for the how to
