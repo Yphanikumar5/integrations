@@ -37,7 +37,13 @@ What the monitor is used for -- which metrics and for what -- discussion
 
 ## Metrics
 
-Besides the common default metrics that are described [here](https://docs.signalfx.com/en/latest/integrations/agent/monitor-config.html), the following table shows additional optional metrics available for this monitor. Metrics that are marked as Default are standard metrics that are monitored by default. You may need to add a flag to these metrics. Check the config file for flag requirements.
+Besides the common default metrics that are described [here](https://docs.signalfx.com/en/latest/integrations/agent/monitor-config.html), the following table shows additional optional metrics available for this monitor.
+
+- Metrics that are marked as Included are sent by default by the Smart Agent as part of a host-based subscription, and you are not charged for them.
+
+- Metrics that are not marked as Included are custom metrics, such as system or service metrics that you configure the Smart Agent to send outside of the default set of metrics. Your SignalFx subscription allows you to send a certain number of custom metrics.
+
+You may need to add a flag to these metrics. Check the config file for flag requirements.
  
 
 | Name | Type | Default | Description |
