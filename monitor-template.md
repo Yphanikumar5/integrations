@@ -8,7 +8,6 @@ INFO TAB
 Metadata associated with the \<name> collectd plugin can be found _here_. The relevant code for the plugin can be found _here_.
 
 - [Description](#description)
-- [Features](#features)
 - [Use](#use)
 - [Metrics](#metrics)
 - [Dimensions](#dimensions)
@@ -19,9 +18,10 @@ Monitors \<what> using the information provided by \<what> which collects metric
 * <link to item>
 * <link to item>
 
-## Features
 
 For more information on the source data, see <https://...>
+
+Monitor type: \<type name>
 
 Monitor Source Code \<link>
 
@@ -30,7 +30,7 @@ Accepts Endpoints: <yes/no>
 Multiple Instances Allowed: <yes/no>
 
 
-## Use
+## Usage
 
 What the monitor is used for -- which metrics and for what -- discussion
 
@@ -39,27 +39,27 @@ What the monitor is used for -- which metrics and for what -- discussion
 
 Besides the common default metrics that are described [here](https://docs.signalfx.com/en/latest/integrations/agent/monitor-config.html), the following table shows additional optional metrics available for this monitor.
 
-- Metrics that are marked as Included are sent by default by the Smart Agent as part of a host-based subscription, and you are not charged for them.
+- Metrics that are marked as Included in the table below are sent by default by the Smart Agent as part of a host-based subscription, and you are not charged for them.
 
 - Metrics that are not marked as Included are custom metrics, such as system or service metrics that you configure the Smart Agent to send outside of the default set of metrics. Your SignalFx subscription allows you to send a certain number of custom metrics.
 
 You may need to add a flag to these metrics. Check the config file for flag requirements.
  
 
-| Name | Type | Default | Description |
+| Name | Type | Included | Description |
 | ---  | ---  | ---    | ---         |
 | `name1` | counter | ✔ | Total connections count per broker |
 | `name2` | gauge | ✔ | Total number of consumers subscribed to destinations on the broker |
 | `name3` | gauge |  | Total number of messages that have been acknowledged from the broker. |
 
 
-### Optional metric configuration
+### Custom metric configuration
 
-To collect optional metrics, you must configure your monitor to listen for those metrics and then send those metrics to the agent.
+To collect custom metrics, you must configure your monitor to listen for those metrics and then send those metrics to the agent.
 
-To specify optional metrics, add a _metricsToInclude_ filter to the agent configuration file, as shown in the code snippet below. The snippet lists all available optional metrics. Copy and paste the snippet into your monitor configuration file, then delete any optional metrics that you do not want.
+To specify custom metrics, add a _metricsToInclude_ filter to the agent configuration file, as shown in the code snippet below. The snippet lists all available custom metrics. Copy and paste the snippet into your monitor configuration file, then delete any custom metrics that you do not want.
 
-Note that some of the optional metrics require you to set a flag in addition to adding them to the metricsToInclude list. Check the monitor configuration file to see if a flag is required for gathering optional metrics.
+Note that some of the custom metrics require you to set a flag in addition to adding them to the metricsToInclude list. Check the monitor configuration file to see if a flag is required for gathering custom metrics.
 
 ```
 sh
@@ -95,8 +95,14 @@ INSTALLATION TAB
 
 ## Requirements and Dependencies
 
+<text or table format>
 
 ## Installation
+
+Steps to install this monitor are described below. 
+
+Step 1. 
+Step 2. 
 
 
 ## Configuration 
@@ -116,6 +122,7 @@ The **nested** `kubeletAPI` config object has the following fields:
 
 
 ### YAML config
+
 Sample YAML config with custom query:
 
 ```sh
@@ -134,6 +141,7 @@ monitors:
 In addition to the common configuration options shown [here](https://docs.signalfx.com/en/latest/integrations/agent/monitor-config.html), the following configuration options can be set:
 
 Config option	Required	Type	Description
+
 item 						
 item 						
 item 						
@@ -146,7 +154,7 @@ To confirm your installation is functioning properly...
 
 ## Troubleshooting
 
-/<This is troubleshooting the monitor installation.>
+<This is troubleshooting the monitor installation.>
 
 
 
@@ -164,16 +172,16 @@ USAGE TAB
 
 Dashboards in which the default metrics from this monitor display are shown below.
 
-/<dashboard screen shots>
+<dashboard screen shots>
 
 ## How To
 
-/<Examples of how to use the monitor, dashboards, and metrics for a meaningful task.>
+<Examples of how to use the monitor, dashboards, and metrics for a meaningful task.>
 
 
 ## Sample code for the how to
 
-/<This is where you can put the sample coding that matches the "how to" section above.>
+<This is where you can put the sample coding that matches the "how to" section above.>
 
 
 
