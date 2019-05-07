@@ -95,13 +95,14 @@ INSTALLATION TAB
 
 ## Requirements and Dependencies
 
-<text or table format>
+\<text or table format>
 
 ## Installation
 
 Steps to install this monitor are described below. 
 
 Step 1. 
+
 Step 2. 
 
 
@@ -140,12 +141,10 @@ monitors:
 
 In addition to the common configuration options shown [here](https://docs.signalfx.com/en/latest/integrations/agent/monitor-config.html), the following configuration options can be set:
 
-Config option	Required	Type	Description
-
-item 						
-item 						
-item 						
-
+| Config option | Required | Type | Description |
+| --- | --- | --- | --- |
+| item 1 | no | `string` | description
+| `item2` | no | `string` | description
 
 ## Confirmation
 
@@ -155,6 +154,7 @@ To confirm your installation is functioning properly...
 ## Troubleshooting
 
 <This is troubleshooting the monitor installation.>
+
 
 
 
