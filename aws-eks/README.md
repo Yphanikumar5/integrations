@@ -1,7 +1,7 @@
 # ![](./img/integration_amazoneks.png) Amazon Elastic Container Service for Kubernetes (EKS)
 
 - [Description](#description)
-_ [Recommended Metrics](#recom,mended-metrics) _
+- [Recommended Metrics](#recom,mended-metrics)
 - [License](#license)
 
 ### DESCRIPTION

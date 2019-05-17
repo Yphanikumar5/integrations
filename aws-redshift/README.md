@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
-- [Recommended Metrics](#recommended-metrics)
+- [Recommended metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -37,7 +37,7 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 
 For more information about the metrics emitted by Amazon Redshift, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/redshift/">https://aws.amazon.com/redshift/</a>.
 
-### RECOMMENDED Metrics
+### RECOMMENDED METRICS
 
 There are no recommended metrics on CloudWatch.
 

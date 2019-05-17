@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
-- [Recommended Metrics](#recommended-metrics)
+- [Recommended metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -105,7 +105,7 @@ For more information about the metrics emitted by Lambda, see the documentation 
 
 ### RECOMMENDED Metrics
 
-There are no recommended metrics on Cloudwatch.
+There are no recommended metrics on CloudWatch.
 
 ### LICENSE
 

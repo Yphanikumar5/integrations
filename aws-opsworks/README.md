@@ -39,7 +39,7 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 
 ### METRICS
 
-For more information about the metrics emitted by AWS OpsWorks, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/opsworks/">https://aws.amazon.com/opsworks/</a>.
+For more information about the metrics emitted by AWS OpsWorks, visit the service homepage at <a target="_blank" href="https://aws.amazon.com/opsworks/">https://aws.amazon.com/opsworks/</a>.
 
 ### RECOMMENDED METRICS 
 

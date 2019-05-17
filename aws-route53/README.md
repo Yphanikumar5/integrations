@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
-- [Recommended Metrics](#recommended-metrics)
+- [Recommended metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -39,7 +39,7 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 
 ### METRICS
 
-For more information about the metrics emitted by Amazon Route 53, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/route53/">https://aws.amazon.com/route53/</a>.
+For more information about the metrics emitted by Amazon Route 53, visit the service homepage at <a target="_blank" href="https://aws.amazon.com/route53/">https://aws.amazon.com/route53/</a>.
 
 ### RECOMMENDED METRICS 
 

@@ -45,6 +45,8 @@ The following are a subset of available metrics; these statistics are recommende
 
 _Load balancer metrics_
 
+ActiveConnectionCount: Sum
+
 ClientTLSNegotiationErrorCount: Sum
 
 ConsumedLCUs: Average, Sum, Minimum, Maximum, Count

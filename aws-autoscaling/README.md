@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
-- Recommended Metrics (#recommended-metrics)
+- [Recommended metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION

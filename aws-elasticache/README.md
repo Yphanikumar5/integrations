@@ -47,6 +47,10 @@ SignalFx provides built-in dashboards for this service. Examples are shown below
 
 For more information about the metrics emitted by Amazon ElastiCache, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/elasticache/">https://aws.amazon.com/elasticache/</a>.
 
+### RECOMMENDED METRICS
+
+There are no recommended metrics on CloudWatch.
+
 ### LICENSE
 
 This integration is released under the Apache 2.0 license. See [LICENSE](./LICENSE) for more details.

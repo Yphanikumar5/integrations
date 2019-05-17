@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Metrics](#metrics)
-- [Recommended Metrics](#recommended-metrics)
+- [Recommended metrics](#recommended-metrics)
 - [License](#license)
 
 ### DESCRIPTION
@@ -33,7 +33,7 @@ SignalFx provides a built-in dashboard for this service, as shown below.
 
 ### METRICS
 
-For more information about the metrics emitted by Amazon Simple Notification Service, visit the service's homepage at <a target="_blank" href="https://aws.amazon.com/sns/">https://aws.amazon.com/sns/</a>.
+For more information about the metrics emitted by Amazon Simple Notification Service, visit the service homepage at <a target="_blank" href="https://aws.amazon.com/sns/">https://aws.amazon.com/sns/</a>.
 
 ### RECOMMENDED METRICS 
 

@@ -81,36 +81,58 @@ The following are a subset of available metrics; these are recommended by Amazon
 _Standard EC2 Metrics_
 
 CPUUtilization
+
 DiskReadOps
+
 DiskWriteOps
+
 DiskReadBytes
+
 DiskWriteBytes
+
 NetworkIn
+
 NetworkOut
+
 NetworkPacketsIn: Minimum, Maximum, Average
+
 NetworkPacketsOut: Minimum, Maximum, Average
+
 
 _Credit metrics for burstable instances_
 
 CPUCreditUsage
+
 CPUCreditBalance
+
 CPUSurplusCreditBalance
+
 CPUSurplusCreditsCharged
+
 
 _Status check metrics_
 
 StatusCheckFailed
+
 StatusCheckFailed_Instance   
+
 StatusCheckFailed_System
+
 
 _EBS metrics for Nitro-based instances_
 
 EBSReadOps
+
 EBSWriteOps
+
 EBSReadBytes
+
 EBSWriteBytes
+
 EBSIOBalance%
+
 EBSByteBalance%
+
 
 
 ### LICENSE
